@@ -11,15 +11,26 @@ body{
     box-sizing:border-box;
 }
 
-
-.titulo-destaque{
-  color: #22d4fd ;
+.header{
+  padding: 2% 0% 0% 15%;
 }
+
+.header_menu{
+  display: flex;
+  gap: 80px;
+}
+
+.header_menu_link{
+  font-family:"Monterrat", sans serif;
+  font-size: 24px;
+  font-weight:600;
+  color: #22D4FD;
+  }
 
 .presentacion{
   display: flex;
   align-items: center;
-  margin: 10% 15%;
+  padding: 6% 15%;
   justify-content: space-between;
 }
 
@@ -34,6 +45,11 @@ body{
   font-size: 36px;
   font-family: "Krona One", serif;
 }
+
+.titulo-destaque{
+  color: #22d4fd ;
+}
+
 
 .presentacion_contenido_texto{
   font-size: 24px;
